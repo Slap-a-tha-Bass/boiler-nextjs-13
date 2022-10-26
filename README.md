@@ -2,12 +2,22 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, clone the project:
 
 ```bash
+git clone https://github.com/Slap-a-tha-Bass/boiler-nextjs-13 <YOUR_PROJECT_NAME>
+```
+
+Then run 
+```bash
+npm install
+or
+yarn install
+```
+
+Then after all the dependencies have installed run
+```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
