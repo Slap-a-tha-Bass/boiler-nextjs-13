@@ -1,7 +1,8 @@
 import fs from 'fs';
 import matter from 'gray-matter';
+import Link from 'next/link';
 
-async function getData() {
+export async function getData() {
   const files = fs.readdirSync('src/posts');
   const posts = files.map((filename) => {
     const markdownWithMetadata = fs
@@ -18,9 +19,12 @@ async function getData() {
 export default async function Page() {
   const data = await getData();
   return data.map((blog) => (
-    <div key={blog.posts.title}>
+    <Link
+      href={`/blog/${blog.posts.title.split(' ').join('-').toLowerCase()}`}
+      key={blog.posts.title}
+    >
       <h1>{blog.posts.title}</h1>
       <p>{blog.posts.date}</p>
-    </div>
+    </Link>
   ));
 }

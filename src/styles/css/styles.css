@@ -2,18 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  background-clip: none;
-}
-
-button {
-  background-clip: none;
 }
 
 * {
@@ -25,8 +19,8 @@ button {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: #f3f3f3;
+    background: #1a1a1a;
   }
 }
 
