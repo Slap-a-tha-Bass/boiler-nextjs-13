@@ -27,7 +27,7 @@ export default async function Page({ params }: any) {
   const { slug } = params;
   const post: any = await getOnePost({ slug: slug });
   const md = new MarkdownIt();
-  const result = md.render(post?.content);
+  const result = md.render(post ? post.content : '');
   return (
     <div>
       <Link href="/">Home</Link>
