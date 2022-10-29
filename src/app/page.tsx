@@ -1,5 +1,3 @@
-import fs from 'fs';
-import matter from 'gray-matter';
 import Link from 'next/link';
 import GetPosts from '@utils/getPosts';
 
