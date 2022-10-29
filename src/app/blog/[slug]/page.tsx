@@ -1,8 +1,8 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import { getData } from '@app/page';
 import MarkdownIt from 'markdown-it';
 import Link from 'next/link';
+import GetPosts from '@utils/getPosts';
 
 async function getOnePost({ slug }: any) {
   const files = fs.readdirSync(`src/posts`);
@@ -17,7 +17,7 @@ async function getOnePost({ slug }: any) {
 }
 
 export async function generateStaticParams() {
-  const posts = await getData();
+  const posts = await GetPosts();
   return posts.map((blog) => ({
     slug: blog.posts.title.split('.').join('-').toLowerCase(),
   }));
