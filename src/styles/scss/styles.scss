@@ -1,16 +1,23 @@
+@use 'abstracts' as *;
+@use 'components' as *;
+@use 'layouts' as *;
+@use 'mixins' as *;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  background-clip: none;
 }
-
+button {
+  cursor: pointer;
+  background-clip: none;
+}
 * {
   box-sizing: border-box;
 }
@@ -20,7 +27,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: #f3f3f3;
+    color: #e5d9b6;
     background: #1a1a1a;
   }
 }

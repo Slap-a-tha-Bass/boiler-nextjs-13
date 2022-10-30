@@ -1,0 +1,7 @@
+@use '../../abstracts' as *;
+@use '../../mixins' as *;
+
+.card-light {
+  // card($bg-color, $text-color, $border-color)
+  @include card($light, $dark, $dark);
+}

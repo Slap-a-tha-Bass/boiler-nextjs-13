@@ -2,7 +2,7 @@
 title: 'Writing Strings in Test File'
 metaTitle: 'Writing Strings in Test File'
 metaDesc: 'How to write a blog with Next 13'
-socialImage: images/22-09-2021.jpg
+socialImage: favicon.ico
 date: '2021-09-22'
 tags:
   - nextjs

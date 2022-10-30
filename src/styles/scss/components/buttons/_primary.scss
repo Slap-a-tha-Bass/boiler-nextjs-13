@@ -1,0 +1,7 @@
+@use '../../abstracts' as *;
+@use '../../mixins' as *;
+
+.btn-primary {
+  // button($bg-color, $text-color, $border-color)
+  @include button($transparent, $white, $primary);
+}

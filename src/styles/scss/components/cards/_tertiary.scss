@@ -1,0 +1,7 @@
+@use '../../abstracts' as *;
+@use '../../mixins' as *;
+
+.card-tertiary {
+  // card($bg-color, $text-color, $border-color)
+  @include card($transparent, $tertiary, $tertiary);
+}

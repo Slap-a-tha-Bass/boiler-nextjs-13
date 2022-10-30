@@ -1,0 +1,7 @@
+@use '../../abstracts' as *;
+@use '../../mixins' as *;
+
+.card-gradient-primary {
+  // card($bg-color, $text-color, $border-color)
+  @include gradient-card($primary, $light, $primary, 45deg);
+}

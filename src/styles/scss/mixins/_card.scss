@@ -1,0 +1,54 @@
+@mixin card($bg-color, $text-color, $border-color) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  transition-duration: 500ms;
+  border: 2px solid $border-color;
+  border-radius: 0.25rem;
+  box-shadow: darken($border-color, 20%) 0px 0px 10px;
+  background-color: $bg-color;
+  &:hover {
+    transform: scale(1.05);
+  }
+  @media (prefers-reduced-motion) {
+    &:hover {
+      transform: none;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    line-height: 1.75rem;
+    font-weight: 400;
+    color: $text-color;
+  }
+  p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: $text-color;
+  }
+  a {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+    text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+    text-underline-offset: 2px;
+    color: $text-color;
+    &:hover {
+      color: darken($text-color, 20%);
+    }
+  }
+}
+@mixin gradient-card($bg-color, $text-color, $border-color, $deg) {
+  @include card($bg-color, $text-color, $border-color);
+  background: linear-gradient($deg, $bg-color, darken($bg-color, 40%));
+}

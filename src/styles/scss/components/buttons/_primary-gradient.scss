@@ -1,0 +1,7 @@
+@use '../../abstracts' as *;
+@use '../../mixins' as *;
+
+.btn-primary-gradient {
+  // button($bg-color, $text-color, $border-color)
+  @include button-gradient($primary, $white, $primary);
+}

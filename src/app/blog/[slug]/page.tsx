@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import Link from 'next/link';
 import GetPosts from '@utils/getPosts';
+import Image from 'next/image';
 
 async function getOnePost({ slug }: any) {
   const files = fs.readdirSync(`src/posts`);
@@ -32,6 +33,7 @@ export default async function Page({ params }: any) {
     <div>
       <Link href="/">Home</Link>
       <h1>{post?.blogPost.title}</h1>
+      <Image alt={post?.blogPost.metaTitle} src={`/${post?.blogPost.socialImage}`} height={100} width={100} />
       {<div dangerouslySetInnerHTML={{ __html: result }} />}
     </div>
   );
