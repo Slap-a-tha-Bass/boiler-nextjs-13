@@ -2,7 +2,7 @@
 title: 'My Wife is a Front Row Sitter'
 metaTitle: 'My Wife is a Front Row Sitter'
 metaDesc: 'Albatross Family Blog'
-socialImage: favicon.ico
+socialImage: logo.png
 date: '2021-09-22'
 tags:
   - comedy
