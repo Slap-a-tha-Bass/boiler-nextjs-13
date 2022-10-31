@@ -6,6 +6,7 @@ interface IBlogCard {
   date: string;
   metaTitle: string;
   imageURL: string;
+  slug: string;
 }
 
 export default function BlogCard({
@@ -13,16 +14,22 @@ export default function BlogCard({
   date,
   metaTitle,
   imageURL,
+  slug,
 }: IBlogCard) {
   return (
-    <div className="card-primary">
-      <p style={{ textAlign: 'center' }}>
-        <Image alt={metaTitle} src={`/${imageURL}`} height={100} width={100} />
-      </p>
-      <Link href={`/blog/${title.split(' ').join('-').toLowerCase()}`}>
-        <h2>{title}</h2>
-      </Link>
-      <p>{date}</p>
-    </div>
+    <Link href={`/blog/${slug}`}>
+      <div className="card-primary">
+        <p style={{ textAlign: 'center' }}>
+          <Image
+            alt={metaTitle}
+            src={`/${imageURL}`}
+            height={100}
+            width={100}
+          />
+        </p>
+        <h3>{title}</h3>
+        <p>{date}</p>
+      </div>
+    </Link>
   );
 }

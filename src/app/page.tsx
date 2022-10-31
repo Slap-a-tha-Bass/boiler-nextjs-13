@@ -9,6 +9,7 @@ export default async function Page() {
         <BlogCard
           key={blog.posts.title}
           title={blog.posts.title}
+          slug={blog.posts.slug}
           date={blog.posts.date}
           metaTitle={blog.posts.metaTitle}
           imageURL={blog.posts.socialImage}

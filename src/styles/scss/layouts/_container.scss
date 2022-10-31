@@ -19,11 +19,15 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
 }
 .container-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -36,5 +40,5 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px
 }

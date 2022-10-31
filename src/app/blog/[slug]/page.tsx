@@ -1,7 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
-import Link from 'next/link';
 import GetPosts from '@utils/getPosts';
 import Image from 'next/image';
 
@@ -20,7 +19,7 @@ async function getOnePost({ slug }: any) {
 export async function generateStaticParams() {
   const posts = await GetPosts();
   return posts.map((blog) => ({
-    slug: blog.posts.title.split('.').join('-').toLowerCase(),
+    slug: blog.posts.slug,
   }));
 }
 
@@ -30,10 +29,8 @@ export default async function Page({ params }: any) {
   const md = new MarkdownIt();
   const result = md.render(post ? post.content : '');
   return (
-    <div>
-      <Link href="/">Home</Link>
+    <div className='container-flex'>
       <h1>{post?.blogPost.title}</h1>
-      <Image alt={post?.blogPost.metaTitle} src={`/${post?.blogPost.socialImage}`} height={100} width={100} />
       {<div dangerouslySetInnerHTML={{ __html: result }} />}
     </div>
   );

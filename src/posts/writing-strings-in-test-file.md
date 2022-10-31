@@ -1,5 +1,6 @@
 ---
 title: 'Writing Strings in Test File'
+slug: 'writing-strings-in-test-file'
 metaTitle: 'Writing Strings in Test File'
 metaDesc: 'How to write a blog with Next 13'
 socialImage: favicon.ico

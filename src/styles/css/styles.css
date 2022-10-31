@@ -11,7 +11,7 @@
 }
 .card-primary:hover {
   transform: scale(1.05);
-  box-shadow: #e5d9b6 0px 0px 10px;
+  box-shadow: #e5d9b6 0px 0px 20px;
   border-color: #e5d9b6;
 }
 @media (prefers-reduced-motion) {
@@ -40,10 +40,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #cbb26a;
 }
@@ -64,7 +60,7 @@
 }
 .card-secondary:hover {
   transform: scale(1.05);
-  box-shadow: #f3eddb 0px 0px 10px;
+  box-shadow: #f3eddb 0px 0px 20px;
   border-color: #f3eddb;
 }
 @media (prefers-reduced-motion) {
@@ -93,10 +89,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #d8c690;
 }
@@ -117,7 +109,7 @@
 }
 .card-tertiary:hover {
   transform: scale(1.05);
-  box-shadow: #d8c590 0px 0px 10px;
+  box-shadow: #d8c590 0px 0px 20px;
   border-color: #d8c590;
 }
 @media (prefers-reduced-motion) {
@@ -146,10 +138,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #be9e44;
 }
@@ -170,7 +158,7 @@
 }
 .card-success:hover {
   transform: scale(1.05);
-  box-shadow: #a3d7a3 0px 0px 10px;
+  box-shadow: #a3d7a3 0px 0px 20px;
   border-color: #a3d7a3;
 }
 @media (prefers-reduced-motion) {
@@ -199,10 +187,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #5cb85c;
 }
@@ -223,7 +207,7 @@
 }
 .card-warning:hover {
   transform: scale(1.05);
-  box-shadow: #f8d9ac 0px 0px 10px;
+  box-shadow: #f8d9ac 0px 0px 20px;
   border-color: #f8d9ac;
 }
 @media (prefers-reduced-motion) {
@@ -252,10 +236,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #f0ad4e;
 }
@@ -276,7 +256,7 @@
 }
 .card-danger:hover {
   transform: scale(1.05);
-  box-shadow: #eb7571 0px 0px 10px;
+  box-shadow: #eb7571 0px 0px 20px;
   border-color: #eb7571;
 }
 @media (prefers-reduced-motion) {
@@ -305,10 +285,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #d7251f;
 }
@@ -329,7 +305,7 @@
 }
 .card-info:hover {
   transform: scale(1.05);
-  box-shadow: #b0e1ef 0px 0px 10px;
+  box-shadow: #b0e1ef 0px 0px 20px;
   border-color: #b0e1ef;
 }
 @media (prefers-reduced-motion) {
@@ -358,10 +334,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #5bc0de;
 }
@@ -382,7 +354,7 @@
 }
 .card-light:hover {
   transform: scale(1.05);
-  box-shadow: #5a5f61 0px 0px 10px;
+  box-shadow: #5a5f61 0px 0px 20px;
   border-color: #5a5f61;
 }
 @media (prefers-reduced-motion) {
@@ -411,10 +383,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #292b2c;
 }
@@ -435,7 +403,7 @@
 }
 .card-dark:hover {
   transform: scale(1.05);
-  box-shadow: #5a5f61 0px 0px 10px;
+  box-shadow: #5a5f61 0px 0px 20px;
   border-color: #5a5f61;
 }
 @media (prefers-reduced-motion) {
@@ -464,10 +432,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #f7f7f7;
 }
@@ -489,7 +453,7 @@
 }
 .card-gradient-primary:hover {
   transform: scale(1.05);
-  box-shadow: #e5d9b6 0px 0px 10px;
+  box-shadow: #e5d9b6 0px 0px 20px;
   border-color: #e5d9b6;
 }
 @media (prefers-reduced-motion) {
@@ -518,10 +482,6 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-style: dotted;
-  -webkit-text-decoration-style: dotted;
   text-underline-offset: 2px;
   color: #f7f7f7;
 }
@@ -587,11 +547,15 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+.container-flex img {
+  max-width: 50%;
+  margin: 0 auto;
+}
 
 .container-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -617,7 +581,7 @@ body {
 code {
   font-family: Consolas, "courier new";
   color: #292b2c;
-  background-color: #f8f9fa;
+  background-color: #d8c690;
   padding: 2px;
   font-size: 105%;
 }
@@ -656,19 +620,6 @@ header {
   padding: 0 1rem;
   background: linear-gradient(90deg, #292b2c, #1d1e1f);
   color: #cbb26a;
-}
-header nav {
-  display: flex;
-  flex: 1;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-header nav a:hover {
-  color: #be9e44;
-  text-shadow: 0px 0px 10px #be9e44;
 }
 
 @media (prefers-color-scheme: dark) {

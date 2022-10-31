@@ -1,5 +1,6 @@
 ---
 title: 'Test Blog'
+slug: 'test-blog'
 metaTitle: 'Test Blog'
 metaDesc: 'How to write a blog with Next 13'
 socialImage: favicon.ico
