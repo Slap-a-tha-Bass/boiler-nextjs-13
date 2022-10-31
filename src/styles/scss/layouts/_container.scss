@@ -1,8 +1,9 @@
+@use '../abstracts' as *;
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 4rem 0;
 }
 .container-fluid {
   width: 100%;
@@ -26,7 +27,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 2rem 0;
 }
 .container-sidebar {
   display: grid;

@@ -10,6 +10,8 @@
   background-color: $bg-color;
   &:hover {
     transform: scale(1.05);
+    box-shadow: lighten($border-color, 20%) 0px 0px 10px;
+    border-color: lighten($border-color, 20%);
   }
   @media (prefers-reduced-motion) {
     &:hover {

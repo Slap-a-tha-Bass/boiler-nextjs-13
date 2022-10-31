@@ -27,13 +27,46 @@ button {
 * {
   box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 {
+  // create a text fill effect
+  background: linear-gradient(45deg, darken($tertiary, 10%), lighten($primary, 20%));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  span {
+    font-size: 1.15rem;
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background: linear-gradient(90deg, $dark, darken($dark, 5%));
+  color: $primary;
+  nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    a:hover {
+      color: $tertiary;
+      text-shadow: 0px 0px 10px $tertiary;
+    }
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: #e5d9b6;
-    background: #1a1a1a;
+    color: $light;
+    background: $dark;
   }
 }
