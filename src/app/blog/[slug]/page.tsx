@@ -2,7 +2,6 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import GetPosts from '@utils/getPosts';
-import Image from 'next/image';
 
 async function getOnePost({ slug }: any) {
   const files = fs.readdirSync(`src/posts`);
