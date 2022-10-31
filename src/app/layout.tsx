@@ -1,6 +1,5 @@
 import '@styles/css/styles.css';
 import { Inter } from '@next/font/google';
-import Image from 'next/image';
 import Header from '@components/nav/header';
 
 const inter = Inter();
