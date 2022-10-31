@@ -13,6 +13,8 @@ export default async function Page() {
           date={blog.posts.date}
           metaTitle={blog.posts.metaTitle}
           imageURL={blog.posts.socialImage}
+          height={blog.posts.socialImageHeight}
+          width={blog.posts.socialImageWidth}
         />
       ))}
     </div>

@@ -1,3 +1,4 @@
+import DateChanger from '@utils/dateChanger';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -7,6 +8,8 @@ interface IBlogCard {
   metaTitle: string;
   imageURL: string;
   slug: string;
+  height: number;
+  width: number;
 }
 
 export default function BlogCard({
@@ -15,7 +18,10 @@ export default function BlogCard({
   metaTitle,
   imageURL,
   slug,
+  height,
+  width,
 }: IBlogCard) {
+
   return (
     <Link href={`/blog/${slug}`}>
       <div className="card-primary">
@@ -23,12 +29,12 @@ export default function BlogCard({
           <Image
             alt={metaTitle}
             src={`/${imageURL}`}
-            height={100}
-            width={100}
+            height={height}
+            width={width}
           />
         </p>
         <h3>{title}</h3>
-        <p>{date}</p>
+        <p>{DateChanger(date)}</p>
       </div>
     </Link>
   );

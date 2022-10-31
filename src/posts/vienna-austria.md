@@ -1,12 +1,16 @@
 ---
 title: 'Vienna, Austria'
 slug: 'vienna-austria'
-metaTitle: 'My Wife is a Front Row Sitter'
+metaTitle: 'Our trip to Austria'
 metaDesc: 'Albatross Family Blog'
-socialImage: logo.png
-date: '2021-09-22'
+socialImage: stcharles.png
+socialImageHeight: 400
+socialImageWidth: 320
+date: '2022-04-19'
 tags:
-  - comedy
+  - travel
+  - vienna
+  - austria
 ---
 
 We have all seen that person in the front of class consistently raising their hands. So much to the point where the teacher appears annoyed.

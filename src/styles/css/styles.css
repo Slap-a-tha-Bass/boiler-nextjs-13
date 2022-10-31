@@ -26,15 +26,21 @@
 .card-primary h5,
 .card-primary h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #cbb26a;
 }
 .card-primary p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #cbb26a;
+}
+.card-primary p img {
+  box-shadow: 0px 0px 25px #be9e44;
+  margin: 0.5rem;
 }
 .card-primary a {
   margin-top: 0.5rem;
@@ -75,15 +81,21 @@
 .card-secondary h5,
 .card-secondary h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #d8c690;
 }
 .card-secondary p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #d8c690;
+}
+.card-secondary p img {
+  box-shadow: 0px 0px 25px #cbb36a;
+  margin: 0.5rem;
 }
 .card-secondary a {
   margin-top: 0.5rem;
@@ -124,15 +136,21 @@
 .card-tertiary h5,
 .card-tertiary h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #be9e44;
 }
 .card-tertiary p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #be9e44;
+}
+.card-tertiary p img {
+  box-shadow: 0px 0px 25px #9a7f35;
+  margin: 0.5rem;
 }
 .card-tertiary a {
   margin-top: 0.5rem;
@@ -173,15 +191,21 @@
 .card-success h5,
 .card-success h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #5cb85c;
 }
 .card-success p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #5cb85c;
+}
+.card-success p img {
+  box-shadow: 0px 0px 25px #449d44;
+  margin: 0.5rem;
 }
 .card-success a {
   margin-top: 0.5rem;
@@ -222,15 +246,21 @@
 .card-warning h5,
 .card-warning h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #f0ad4e;
 }
 .card-warning p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #f0ad4e;
+}
+.card-warning p img {
+  box-shadow: 0px 0px 25px #ec971f;
+  margin: 0.5rem;
 }
 .card-warning a {
   margin-top: 0.5rem;
@@ -271,15 +301,21 @@
 .card-danger h5,
 .card-danger h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #d7251f;
 }
 .card-danger p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #d7251f;
+}
+.card-danger p img {
+  box-shadow: 0px 0px 25px #aa1d19;
+  margin: 0.5rem;
 }
 .card-danger a {
   margin-top: 0.5rem;
@@ -320,15 +356,21 @@
 .card-info h5,
 .card-info h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #5bc0de;
 }
 .card-info p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #5bc0de;
+}
+.card-info p img {
+  box-shadow: 0px 0px 25px #31b0d5;
+  margin: 0.5rem;
 }
 .card-info a {
   margin-top: 0.5rem;
@@ -369,15 +411,21 @@
 .card-light h5,
 .card-light h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #292b2c;
 }
 .card-light p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #292b2c;
+}
+.card-light p img {
+  box-shadow: 0px 0px 25px #101112;
+  margin: 0.5rem;
 }
 .card-light a {
   margin-top: 0.5rem;
@@ -418,15 +466,21 @@
 .card-dark h5,
 .card-dark h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #f7f7f7;
 }
 .card-dark p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #f7f7f7;
+}
+.card-dark p img {
+  box-shadow: 0px 0px 25px #101112;
+  margin: 0.5rem;
 }
 .card-dark a {
   margin-top: 0.5rem;
@@ -468,15 +522,21 @@
 .card-gradient-primary h5,
 .card-gradient-primary h6 {
   margin: 0;
+  text-align: center;
   line-height: 1.75rem;
   font-weight: 400;
   color: #f7f7f7;
 }
 .card-gradient-primary p {
   margin: 0;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: #f7f7f7;
+}
+.card-gradient-primary p img {
+  box-shadow: 0px 0px 25px #be9e44;
+  margin: 0.5rem;
 }
 .card-gradient-primary a {
   margin-top: 0.5rem;
@@ -584,6 +644,10 @@ code {
   background-color: #d8c690;
   padding: 2px;
   font-size: 105%;
+}
+
+img {
+  border-radius: 0.5rem;
 }
 
 a {
